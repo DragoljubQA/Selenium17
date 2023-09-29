@@ -52,6 +52,7 @@ public class Zadatak8 {
 
         //-----------------------------------
 
+
         //Save image
         WebElement meme = driver.findElement(By.id("done-img"));
         wdwait.until(ExpectedConditions.attributeContains(meme, "src", "imgflip.com"));

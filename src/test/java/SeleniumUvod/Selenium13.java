@@ -52,7 +52,7 @@ public class Selenium13 {
         WebElement submitButton = driver.findElement(By.id("submit"));
 
         username.clear();
-        username.sendKeys("0000");
+        username.sendKeys("1254");
         password.clear();
         password.sendKeys("Password123");
         submitButton.click();
@@ -68,7 +68,5 @@ public class Selenium13 {
         }
         Assert.assertFalse(logOut);
     }
-
-
 
 }
